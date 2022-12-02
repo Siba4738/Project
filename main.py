@@ -51,7 +51,6 @@ def amenities():
 
     cur.close()
 
-
 @app.route('/rooms')
 def rooms():
     cur = mysql.connection.cursor()
