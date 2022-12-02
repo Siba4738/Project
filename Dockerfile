@@ -14,4 +14,5 @@ CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
 RUN apt-get update
 RUN apt-get install  -y mysql-server libmysqlclient-dev
 RUN sudo yum install mysql-devel gcc gcc-devel python-devel
-
+RUN apt-get install python-dev
+RUN apt-get install python3-dev
