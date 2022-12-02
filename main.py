@@ -57,6 +57,7 @@ def rooms():
 
     result = cur.execute("SELECT * FROM rooms")
 
+
     rooms = cur.fetchall()
 
     if result > 0:
