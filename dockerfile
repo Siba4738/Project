@@ -1,5 +1,7 @@
 # syntax=docker/dockerfile:1
 
+railway run
+
 FROM python:3.8-slim-buster
 
 WORKDIR /workspace/Project
