@@ -6,6 +6,7 @@ astroid==1.6.1
 astropy==2.0.3
 attrs==17.4.0
 audioread==2.1.4
+
 autoflake==0.6.6
 Automat==0.7.0
 autopep8==1.4.3
