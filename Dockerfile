@@ -8,8 +8,6 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
-
 
 RUN apt-get update
 RUN apt-get install  -y mysql-server libmysqlclient-dev
@@ -20,5 +18,7 @@ RUN sudo apt-get install mysql-server
 
 RUN sudo apt-get install libmysqlclient-dev
 
-RUN sudo apt-get install libmariadbclient-dev
+
 RUN pip install mysqlclient
+
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
