@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "repl_python3_Self-bot-jasmin"
+name = "repl_python3 jasmin"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
